@@ -1,0 +1,133 @@
+# *****************************************************************************************************
+# Dream Factory random prompt file
+# created 2022-11-18 at 14:17:35 via the integrated prompt editor
+# *****************************************************************************************************
+# these are the default configuration parameters set in your config.txt file
+# you may override anything in this section if you wish, otherwise skip down to the [prompts] section(s) below
+[config]
+
+!MODE = random							# random mode; queue random prompts from [prompts] sections below
+!SD_LOW_MEMORY = no					# low GPU VRAM mode (yes/no)? slower but far less VRAM required
+!SD_LOW_MEM_TURBO = yes				# if you're still getting out-of-memory errors in low VRAM mode, set this to no
+!DELIM = " "							# delimiter to use between prompt sections, default is space
+!WIDTH = 512							# output image width, default is 512
+!HEIGHT = 512							# output image height, default is 512
+!STEPS = 250							# number of steps, more may improve image but increase generation time
+!SAMPLER = plms                       # sampler to use (plms, ddim, lms, euler, euler_a, dpm2, dpm2_a, heun)
+!SAMPLES = 1					      	# number of images to generate per prompt
+!MIN_SCALE = 7.5						# minimum guidance scale, default = 7.5
+!MAX_SCALE = 7.5						# maximum guidance scale, set min and max to same number for no variance
+!RANDOM_INPUT_IMAGE_DIR =				# specify a directory of images here to randomly use them as inputs
+!MIN_STRENGTH = 0.75					# min strength of starting image influence, (0-1, 1 is lowest influence)
+!MAX_STRENGTH = 0.75					# max strength of start image, set min and max to same number for no variance
+!CKPT_FILE = models/ldm/stable-diffusion-v1/model-ema.ckpt
+
+# optional integrated upscaling
+
+!USE_UPSCALE = yes						# use ESRGAN to upscale output images?
+!UPSCALE_AMOUNT = 2.0					# upscaling factor
+!UPSCALE_FACE_ENH = yes				# use GFPGAN to attempt to enhance faces (may make some images blurry/worse)?
+!UPSCALE_KEEP_ORG = yes				# keep the original non-upscaled image (yes/no)?
+
+# optional negative prompt
+
+!NEG_PROMPT =
+
+# *****************************************************************************************************
+# prompt section
+# *****************************************************************************************************
+[prompts]
+
+Chuck Norris
+Arnold Schwarzenegger
+Snoop Dogg
+Hulk Hogan
+Harry Potter
+A Marine drill sergeant
+The Ninja Turtles
+The Blues Brothers
+Steve Martin
+Beavis and Butthead
+Matlock
+Pee Wee Herman
+Spongebob Squarepants
+Weird Al Yankovic
+Tom Hanks
+The Ghostbusters
+Rocky Balboa
+Batman
+Sean Connery
+Garfield
+Calvin and Hobbes
+Alfred E. Neuman
+Bugs Bunny
+Inspector Gadget
+Sylvester Stallone
+Sylvester the Cat
+Daffy Duck
+Donald Duck
+Daffy Duck and Donald Duck
+A sentient TI-83 calculator
+Lightning McQueen
+A marijuana joint
+A Roman legion
+Luca Brasi
+William Shatner
+A lumberjack
+Steve Harvey
+Dr. Phil
+House, M.D.
+Jennifer Lawrence
+Lizzo
+Robocop
+Legolas
+
+[prompts]
+
+twins
+triplets
+playing hopscotch
+playing chess
+eating Oreos
+fighting an army
+flying
+smoking marijuana
+in court
+as Weird Al Yankovic
+hacking a computer
+epic pose
+movie poster
+filing taxes
+at the mall
+in space
+in a dream
+tripping on acid
+sitting on a throne
+in Middle-Earth
+playing Legos
+driving a car
+
+[prompts]
+
+, art by
+
+[prompts]
+
+Norman Rockwell
+Bob Ross
+Vincent van Gogh
+Leonardo da Vinci
+Raphael
+Michaelangelo
+Pablo Picasso
+Rembrandt
+Frank Lloyd Wright
+Edvard Munch
+El Greco
+Francis Bacon
+Salvador Dali
+Claude Monet
+
+# put your prompts here; one per line
+# you may also add additional [prompt] sections below, see 'example-random.prompts' for detail
+
