@@ -67,8 +67,8 @@ Sylvester the Cat
 Daffy Duck
 Donald Duck
 Daffy Duck and Donald Duck
-A sentient TI-83 calculator
-Lightning McQueen
+A TI-83 calculator robot
+A Ford Mustang
 A marijuana joint
 A Roman legion
 Luca Brasi
@@ -81,6 +81,8 @@ Jennifer Lawrence
 Lizzo
 Robocop
 Legolas
+John F. Kennedy
+A bear wearing a beret
 
 [prompts]
 
@@ -104,8 +106,14 @@ in a dream
 tripping on acid
 sitting on a throne
 in Middle-Earth
-playing Legos
+playing with Legos
 driving a car
+running in a field
+eating dinner
+staring at the clouds
+levitating
+lifting weights
+inside a snowglobe
 
 [prompts]
 
@@ -127,7 +135,7 @@ El Greco
 Francis Bacon
 Salvador Dali
 Claude Monet
+Banksy
 
 # put your prompts here; one per line
 # you may also add additional [prompt] sections below, see 'example-random.prompts' for detail
-
